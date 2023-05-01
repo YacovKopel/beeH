@@ -62,7 +62,6 @@ export default function Home() {
   const handleRemoveClick = (id: string) => {
     deleteDoc(doc(collection(db, collectionName), id))
       .then(() => {
-        onRemoveClick(id);
         window.location.reload();
         console.log("deleted");
       })
@@ -109,3 +108,4 @@ export default function Home() {
     </div>
   );
 }
+

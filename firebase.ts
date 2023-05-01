@@ -11,7 +11,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyC9hhPUaBeIJqcF-OAtLTPw96EfQDCU7nE",
   authDomain: "kiruv-services-dev.firebaseapp.com",
   projectId: "kiruv-services-dev",
-  storageBucket: "kiruv-services-dev.appspot.com",
+  storageBucket: "gs://kiruv-services-dev-questions",
   messagingSenderId: "1054183790894",
   appId: "1:1054183790894:web:fba8b5b98e0d93c15b02bf"
 };
