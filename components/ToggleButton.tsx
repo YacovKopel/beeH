@@ -16,7 +16,7 @@ function ToggleButton({ onToggle }: Props) {
   };
 
   return (
-    <div className="flex justify-center my-4">
+    <div className="flex justify-end my-4">
       <button
         className={`px-4 py-2 rounded-l-lg ${
           selected === "postedQuestions"

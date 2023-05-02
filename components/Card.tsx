@@ -78,9 +78,9 @@ function Card({ question, onRemoveClick, collectionClicked }: Props) {
 
   return (
     <div className="flex justify-between items-center rounded-md p-4 mb-4 bg-gray-200 shadow-md">
-      <div className="flex flex-col h-full text-clip overflow-hidden">
+      <div className="flex flex-col h-full text-clip overflow-hidden justify-evenly">
         <h2 className="text-xl font-semibold mb-2">Question</h2>
-        <p className="mb-10 truncate">{question.description}</p>
+        <p className="mb-10 line-clamp-4">{question.description}</p>
 
         <div className="flex items-center justify-between">
           <TrashIcon
